@@ -1,0 +1,32 @@
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin: 0;
+    list-style: none;
+    background-color: green;
+    width: 200px;
+    margin-bottom: 5px;
+    padding: 4px;
+    border-left: 5px solid yellowgreen;
+    color: white;
+}
+
+ul li:hover {
+    background-color: yellowgreen;
+    color: black;
+}
+
+table {
+    width: 500px;
+    border: 1px solid green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table tr th {
+    background-color: rgb(33, 177, 59);
+    color: white;
+    border: 1px solid green;
+}
